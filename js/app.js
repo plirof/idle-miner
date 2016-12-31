@@ -30,7 +30,7 @@
             requireBase: false
         });
         $urlRouterProvider
-            .otherwise('./');
+            .otherwise('/');
     }
 
     configureLocalStorage.$inject = ['localStorageServiceProvider'];
