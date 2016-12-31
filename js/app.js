@@ -358,7 +358,7 @@
     function ConfigureHome($stateProvider) {
         var mine = {
             name: 'home',
-            templateurl: 'js/app/home/home.template.html',
+            templateUrl: '/js/app/home/home.template.html',
             title: 'Mine',
             url: '/'
         };
@@ -647,7 +647,7 @@
             controller: 'MineController',
             controllerAs: 'mine',
             restrict: 'EA',
-            templateurl: '/js/app/underground-mining/mine.directive.html'
+            templateUrl: '/js/app/underground-mining/mine.directive.html'
         };
 
         return directive;
